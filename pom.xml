@@ -49,7 +49,7 @@
             <version>0.2.3</version>
             <configuration>
                 <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
-                <dockerDirectory>src/main/docker</dockerDirectory>
+                <dockerDirectory>/var/lib/docker/volumes/jenkins_data/_data/workspace</dockerDirectory>
                 <resources>
                     <resource>
                         <targetPath>/</targetPath>
