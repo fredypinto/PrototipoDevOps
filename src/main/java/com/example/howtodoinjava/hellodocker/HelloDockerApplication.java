@@ -20,7 +20,7 @@ public class HelloDockerApplication {
 class HelloDockerRestController {
 	@RequestMapping("/hello/{name}")
 	public String helloDocker(@PathVariable(value = "name") String name) {
-		String response = "Hello " + name + " Response received on : " + new Date();
+		String response = "hola  " + name + " usted ingraso en la fecha : " + new Date();
 		System.out.println(response);
 		return response;
 
